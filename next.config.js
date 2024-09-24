@@ -9,7 +9,7 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'opengraph.githubassets.com',
                 port: '',
-                pathname: '/1afeafda/Shikhar97/**',
+                pathname: '/1afeafda/shantanufuke/**',
             },
         ],
     },
