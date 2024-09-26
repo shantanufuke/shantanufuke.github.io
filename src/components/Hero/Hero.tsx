@@ -20,16 +20,16 @@ const Hero = () => {
         </h3>
         <p className={styles.description}>
         I bring over 4 years of experience specializing in Database Development and Python Development. I am currently 
-        pursuing my Master's in Computer Science at Texas A&M University, with a strong focus on Backend Development,
-        SQL Development, Machine Learning, and Data Science.
+        pursuing my Master's in Computer Science at, 
             <Link
-                href="https://www.asu.edu/"
+                href="https://www.tamuk.edu/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          <Highlight>Arizona State University </Highlight>
+          <Highlight>Texas A&M University </Highlight>
         </Link>
-           with a Masters in Computer Science.
+          with a strong focus on Backend Development,
+          SQL Development, Machine Learning, and Data Science.
       </p>
       <Button className={styles.callToAction} onClick={scrollToContact}>
         Get In Touch

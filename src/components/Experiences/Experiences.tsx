@@ -15,7 +15,7 @@ const Experiences: React.FC = () => {
                 className={styles.image}
                 height={100}
                 width={100}
-                src="/images/asu-small.jpeg"
+                src="/images/tamuk.png"
                 alt="ASU"
             />
             <div className={styles.dotPrimary}>
@@ -27,18 +27,20 @@ const Experiences: React.FC = () => {
                   height={100}
                   width={100}
                   className={styles.mobileImage}
-                  src="/images/asu-small.jpeg"
+                  src="/images/tamuk.png"
                   alt="ASU"
               ></Image>
-              <p className={styles.time}>Aug 2023 - May 2024</p>
-              <h4 className={styles.company}>ASU School of Community Resources and Development</h4>
-              <h4 className={styles.role}>Front End Engineer</h4>
+              <p className={styles.time}>Jan 2024 - Jan 2025</p>
+              <h4 className={styles.company}>Texas A&M University</h4>
+              <h4 className={styles.role}>Research Assistant</h4>
               <p className={styles.description}>
-                ⦿ &nbsp; &nbsp; Leading the development of a dashboard using React.js to provide a comprehensive
-                view of climate and community,
-                empowering users to build resilience and leverage actionable insights.<br></br>
-                ⦿ &nbsp; &nbsp; Designing an interface featuring a GIS-based mapping and analytics tool using
-                Leaflet with visualizations using D3.js.
+                    ⦿ &nbsp; &nbsp; Designed and implemented neural networks for DNA 
+                    enhancer prediction, achieving a 20% increase in prediction accuracy.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Developed a C++ tool to determine sequence similarity, reducing computation time by 40% and increasing similarity
+                    measurement accuracy by 10%.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Automated the data pipeline using Python, reducing manual processing time by 40%.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Utilized Python for data preprocessing, transforming large FASTA files into neural network-compatible formats, boosting model
+                    accuracy by 15%.<br/>
               </p>
             </div>
           </div>
@@ -48,7 +50,7 @@ const Experiences: React.FC = () => {
                 height={100}
                 width={100}
                 className={styles.image}
-                src="/images/aruba.jpeg"
+                src="/images/deloitte.jpeg"
                 alt="Aruba Networks"
             ></Image>
             <div className={styles.connector}/>
@@ -62,21 +64,18 @@ const Experiences: React.FC = () => {
                       className={styles.mobileImage}
                       height={100}
                       width={100}
-                      src="/images/aruba.jpeg"
+                      src="/images/deloitte.jpeg"
                       alt="Aruba Networks"
                   ></Image>
-                  <p className={styles.time}>May 2021 - July 2022</p>
-                  <h4 className={styles.company}>Aruba Networks</h4>
-                  <h4 className={styles.role}>Senior Software Engineer</h4>
+                  <p className={styles.time}>July 2022 - July 2023</p>
+                  <h4 className={styles.company}>Deloitte Consulting</h4>
+                  <h4 className={styles.role}>Oracle PL/SQL Developer</h4>
                   <p className={styles.description}>
-                    ⦿ &nbsp; &nbsp; Led the development of a cross-platform testing solution using Python for a network security
-                    compliance tool, improving
-                    end-to-end testing efficiency and reducing resource requirements by 80%.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Engineered an innovative Golang-based solution for deploying virtual machines across ESXi,
-                    Hyper-V, KVM, AWS, and Azure, resulting in a 60% efficiency boost and streamlined process.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Crafted a comprehensive solution using Python to detect vulnerabilities across product code
-                    databases, ensuring robustness in software development practices resulting in a 15% reduction in
-                    potential security risks.<br/>
+                    ⦿ &nbsp; &nbsp; Developed the "Deals to Stock Ledger Interface" in PL/SQL for 
+                    Oracle Retail Merchandising Suite, ensuring efficient deal processing and data integrity 
+                    in the stock ledger.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Optimized data transfer from Google Cloud Platform (GCP) to Oracle RMS with an 
+                    automated PL/SQL program, reducing upload time by 40% and improving scalability.<br/>
                   </p>
                 </div>
               </div>
@@ -85,14 +84,13 @@ const Experiences: React.FC = () => {
                   <div className={styles.dotCore}/>
                 </div>
                 <div className={styles.info}>
-                  <p className={styles.time}>July 2019 - April 2021</p>
-                  <h4 className={styles.role}>Software Engineer</h4>
+                  <p className={styles.time}>January 2022 - June 2022</p>
+                  <h4 className={styles.role}>Oracle Retail Developer</h4>
                   <p className={styles.description}>
-                    ⦿ &nbsp; &nbsp; Contributed to the development of a multi-threaded RESTApi Load Testing tool utilizing Jmeter,
-                    leading to a 10%
-                    improvement in product performance.<br/><br/>
-                    ⦿ &nbsp; &nbsp; Revamped monitoring and logging for a microservice-based architecture with Logstash, Kibana,
-                    Filebeat, Grafana, and InfluxDB, boosting performance visibility and cutting troubleshooting time by 50%.<br/>
+                    ⦿ &nbsp; &nbsp; Integrated Oracle RMS with SAP ERP to automate invoice processing, 
+                    improving workflow efficiency by 60% and enhancing data accuracy.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Led the design of an Oracle Retail Cloud location list creation program, 
+                    reducing user time by 70% and improving team performance.<br/>
                   </p>
                 </div>
               </div>
@@ -102,11 +100,12 @@ const Experiences: React.FC = () => {
                   <div className={styles.dotCore}/>
                 </div>
                 <div className={styles.info}>
-                  <p className={styles.time}>Jan 2019 - Jun 2019</p>
-                  <h4 className={styles.role}>Software Engineer Intern</h4>
+                  <p className={styles.time}>October 2021 - Dec 2022</p>
+                  <h4 className={styles.role}>Oracle BI Developer</h4>
 
                   <p className={styles.description}>
-                    ⦿ &nbsp; &nbsp; Developed a Python-based automated UI testing solution using OpenCV, resulting in a 50% reduction in QA workload.
+                    ⦿ &nbsp; &nbsp; Developed Oracle BI reports, utilizing SQL to extract data and 
+                    generate comprehensive reports, improving accuracy and operational efficiency.<br/>
                   </p>
                 </div>
               </div>
@@ -117,7 +116,7 @@ const Experiences: React.FC = () => {
                 className={styles.image}
                 height={100}
                 width={100}
-                src="/images/stylumia.jpeg"
+                src="/images/tcs.jpeg"
                 alt="Stylumia"
             />
             <div className={styles.dotPrimary}>
@@ -129,17 +128,20 @@ const Experiences: React.FC = () => {
                   className={styles.mobileImage}
                   height={100}
                   width={100}
-                  src="/images/stylumia.jpeg"
-                  alt="Stylumia"
+                  src="/images/tcs.jpeg"
+                  alt="Stylumia" 
               />
-              <p className={styles.time}>Jun 2018 - Aug 2018</p>
-              <h4 className={styles.company}>Stylumia</h4>
+              <p className={styles.time}>April 2019 - October 2021</p>
+              <h4 className={styles.company}>Software Developer</h4>
               <h4 className={styles.role}>
-                Machine Learning Intern
+                Oracle SQL Developer
               </h4>
               <p className={styles.description}>
-                ⦿ &nbsp; &nbsp; Crafted a machine learning model for product classification and integrated it with
-                a search bar, resulting in a 10% improvement in search efficiency.
+                  ⦿ &nbsp; &nbsp; Automated 80% of Coupa purchase orders into Oracle E-Business Suite using PL/SQL, reducing manual entry by 20 hours per week.<br/><br/>
+                  ⦿ &nbsp; &nbsp; Streamlined supplier invoice management in Oracle EBS, improving data accuracy by 80% and reducing processing time by 60%.<br/><br/>
+                  ⦿ &nbsp; &nbsp; Cut account creation time by 60% through custom PL/SQL automation for user creation and email notifications.<br/><br/>
+                  ⦿ &nbsp; &nbsp; Automated supplier attribute updates using Oracle EBS Supplier API, reducing manual efforts by 80% and improving scalability.<br/><br/>
+                  ⦿ &nbsp; &nbsp; Designed efficient data models and managed schemas for Oracle EBS integration with optimized DDLs.<br/><br/>
               </p>
             </div>
           </div>
