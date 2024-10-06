@@ -9,6 +9,10 @@ const Navigation = () => {
         <p className={styles.navText}>About</p>
         About
       </Link>
+      <Link className={styles.navLink} href="#experiences">
+        <p className={styles.navText}>Experience</p>
+        Experience
+      </Link>
       <Link className={styles.navLink} href="#projects">
         <p className={styles.navText}>Projects</p>
         Projects
@@ -18,7 +22,7 @@ const Navigation = () => {
         Contact
       </Link>
       <a className={styles.downloadLink} href="/resume" target="_blank">
-          Resumé
+          Resume
         <FaDownload />
       </a>
     </>

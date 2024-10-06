@@ -28,21 +28,24 @@ const Footer = ({ ...delegated }) => {
     return (
         <div className={styles.footer}>
             <a className={styles.styledgithublink}
-                href="https://github.com/Shikhar97/Shikhar97.github.io/tree/v2"
+                // href="https://github.com/Shikhar97/Shikhar97.github.io/tree/v2"
                 target="_blank"
                 rel="nofollow noopener noreferrer">
                 <div>
-                    Designed &amp; Built by <strong>Shikhar Gupta</strong>
+                    {/* Designed &amp; Built by <strong>Shikhar Gupta</strong> */}
                 </div>
                 {githubInfo.stars && githubInfo.forks && (
                     <div className={styles.styledgithubinfo}>
               <span>
-                <FormattedIcon  name="Star" />
-                <span>&nbsp; {githubInfo.stars} </span>
+                {/* <FormattedIcon  name="Star" /> */}
+                {/* <span>&nbsp; {githubInfo.stars} </span> */}
               </span>
                         <span>
                 <FormattedIcon name="Fork" />
-                <span>&nbsp; {githubInfo.forks} </span>
+                <span>
+                    {/* &nbsp; {githubInfo.forks}  */}
+                    
+                </span>
               </span>
                     </div>
                 )}
