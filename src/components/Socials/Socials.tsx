@@ -9,10 +9,10 @@ import styles from "./Socials.module.css";
 import clsx from "clsx";
 
 const enum ESocials {
-    GITHUB_URL = "https://github.com/Shikhar97",
-    INSTAGRAM_URL = "https://www.instagram.com/shikharguptaaa/",
+    GITHUB_URL = "https://github.com/shantanufuke",
+    INSTAGRAM_URL = "https://www.instagram.com/shantanufuke/",
     TWITTER_URL = "",
-    LINKEDIN_URL = "https://www.linkedin.com/in/shikharg97/",
+    LINKEDIN_URL = "https://www.linkedin.com/in/shantanufuke/",
 }
 
 export const SocialIcons: React.FC = () => {

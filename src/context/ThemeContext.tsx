@@ -10,7 +10,7 @@ interface ThemeContextValue {
 
 const DARK_THEME_CONTEXT_VALUE: ThemeContextValue = {
   setTheme: () => {},
-  logoUrl: "/images/logo-dark.png",
+  logoUrl: "/images/logo-light.png",
   aboutUrl: "/images/shantanu.png",
   aboutUrlSmall: "/images/shantanu.png",
 };
