@@ -13,7 +13,7 @@
     "type": "Featured Project"
   },
   {
-    "name": "Lung Image Classifier",
+    "name": "Lung Image Classifier CNN",
     "techs": [
       "Python",
       "Keras",
