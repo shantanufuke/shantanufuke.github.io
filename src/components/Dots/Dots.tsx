@@ -26,7 +26,8 @@ const Dots: React.FC<React.PropsWithChildren<IProps>> = ({
   React.useEffect(() => {
     if (!canvasRef.current || !boundingRect.current) return; //new added
     
-    const props = drawLines(canvasRef, boundingRect);
+    //const props = drawLines(canvasRef, boundingRect);
+    const props = drawLines(canvasRef.current, boundingRect.current);
     if (!props) return;
 
     const handleMouseMove = getMouseMoveHandler(props);
