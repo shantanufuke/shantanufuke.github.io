@@ -17,8 +17,8 @@ const Dots: React.FC<React.PropsWithChildren<IProps>> = ({
   children,
   ...delegated
 }) => {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const boundingRect = useRef<HTMLDivElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null!);
+  const boundingRect = useRef<HTMLDivElement>(null!);
   const [yOffset, setYOffset] = useDebounce(0, 100);
   const [canvasWidth, setCanvasWidth] = React.useState(0);
   const [canvasHeight, setCanvasHeight] = React.useState(0);
