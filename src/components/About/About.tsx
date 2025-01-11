@@ -24,7 +24,7 @@ const About = ({ ...delegated }: Props) => {
                 <SectionTitle side={"left"}>About Me</SectionTitle>
                 <p className={styles.description}>
                 Hi there! My name is Shantanu Fuke, and I am currently pursuing my Master's in Computer Science at Texas A&M University. 
-                As I embark on the next chapter of my career, I am exploring new opportunities for full-time roles in Backend Development, Data Engineering, or Machine Learning.
+                As I embark on the next chapter of my career, I am exploring new opportunities for full-time roles in Backend Development, Data Engineering, and Machine Learning.
                 </p>
                 <div className={styles.description}>
                     What I Bring to the Table:<br/>
