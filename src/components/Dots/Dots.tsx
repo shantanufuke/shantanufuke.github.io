@@ -24,6 +24,8 @@ const Dots: React.FC<React.PropsWithChildren<IProps>> = ({
   const [canvasHeight, setCanvasHeight] = React.useState(0);
 
   React.useEffect(() => {
+    if (!canvasRef.current || !boundingRect.current) return; //new added
+    
     const props = drawLines(canvasRef, boundingRect);
     if (!props) return;
 
