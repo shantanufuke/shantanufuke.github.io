@@ -13,7 +13,7 @@ const Footer = ({ ...delegated }) => {
     });
 
     useEffect(() => {
-        fetch('https://api.github.com/repos/Shikhar97/Shikhar97.github.io')
+        fetch('https://api.github.com/repos/shantanufuke/shantanufuke.github.io')
             .then(response => response.json())
             .then(json => {
                 const { stargazers_count, forks_count } = json;
@@ -28,11 +28,9 @@ const Footer = ({ ...delegated }) => {
     return (
         <div className={styles.footer}>
             <a className={styles.styledgithublink}
-                // href="https://github.com/Shikhar97/Shikhar97.github.io/tree/v2"
                 target="_blank"
                 rel="nofollow noopener noreferrer">
                 <div>
-                    {/* Designed &amp; Built by <strong>Shikhar Gupta</strong> */}
                 </div>
                 {githubInfo.stars && githubInfo.forks && (
                     <div className={styles.styledgithubinfo}>

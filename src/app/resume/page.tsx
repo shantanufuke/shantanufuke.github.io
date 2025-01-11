@@ -30,7 +30,7 @@ export default function Resume() {
     return (
         <PDFViewer
             backend={PDFJSBackend}
-            src='/Shikhar_Gupta_resume.pdf'
+            src='/Shantanu_Fuke_Resume.pdf'
         />
     );
 }

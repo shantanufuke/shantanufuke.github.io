@@ -1157,9 +1157,13 @@
 }
 
 .Project_tiltingImage__TuYFx {
-  display: block;
+  /* display: block;
   width: auto;
-  height: 300px;
+  height: 300px; */
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Ensures a consistent aspect ratio */
+  -o-object-fit: cover;
+     object-fit: cover; /* Ensures the image scales proportionally */
 }
 
 .Project_staticImage__WOqQa {
@@ -1371,7 +1375,7 @@
 }
 
 .ProjectGrid_projectThumbnail__d3DjV {
-  position: relative;
+  /* position: relative;
   z-index: 1;
 
   border-radius: 8px;
@@ -1379,7 +1383,11 @@
   width: 100%;
   height: 200px;
   transition: all 0.3s ease-in;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6); */
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Ensures a uniform aspect ratio */
+  -o-object-fit: cover;
+     object-fit: cover; /* Ensures the image scales proportionally */
 }
 
 .ProjectGrid_projectThumbnail__d3DjV:hover {

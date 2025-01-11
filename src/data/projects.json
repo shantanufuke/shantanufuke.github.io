@@ -1,15 +1,18 @@
 [
   {
-    "name": "Car Zone Car Selling Website",
+    "name": "Social Media Platform",
     "techs": [
       "Python",
       "Django",
-      "MongoDB"
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript"
     ],
-    "description": "Car Zone is an intuitive online platform for buying and selling vehicles, connecting sellers with potential buyers through a user-friendly interface.",
-    "github": "https://github.com/shantanufuke/carzone-django",
+    "description": "An advanced social media platform inspired by Facebook, featuring robust user authentication, comprehensive profile management, posts, comments, likes, and real-time messaging.",
+    "github": "https://github.com/shantanufuke/Django-Facebook-Clone",
     "website": "",
-    "imgSrc": "/images/car-zone-project.png",
+    "imgSrc": "/images/fb-clone.png",
     "type": "Featured Project"
   },
   {
@@ -23,21 +26,23 @@
     "description": "An advanced machine learning model developed to accurately sub-classify non-small cell lung cancer images into squamous cell carcinoma and adenocarcinoma, enhancing diagnostic precision for healthcare professionals.",
     "github": "https://github.com/shantanufuke/Sub-classifying-Lung-Cancer-with-TensorFlow-2-and-Keras",
     "website": "",
-    "imgSrc": "/images/lung.png",
+    "imgSrc": "/images/lung-cancer.png",
     "type": "Featured Project"
   },
   {
-    "name": "Blog Website",
+    "name": "Blog Site",
     "techs": [
       "Python",
       "Django",
-      "PostgreSQL"
+      "JavaScript",
+      "HTML",
+      "CSS"
     ],
-    "description": "A dynamic blog platform that allows users to create, edit, and share articles, fostering community engagement through comments and likes.",
+    "description": "A powerful Django-based application for creating, managing, and sharing blogs, providing users with an intuitive platform for content publishing and exploration.",
     "github": "https://github.com/shantanufuke/blog-site-django",
     "website": "",
-    "imgSrc": "/images/blog-website-project.png",
-    "type": "Featured Project"
+    "imgSrc": "/images/blog-site.png",
+    "type": "Side Project"
   },
   {
     "name": "DNA Promoter Classifier",
@@ -51,23 +56,65 @@
     "description": "A deep learning project utilizing a Convolutional Neural Network (CNN) to accurately classify DNA promoter sequences, enhancing our understanding of gene transcription and its implications for human diseases.",
     "github": "https://github.com/shantanufuke/DNA-Sequence-Classification-CNN/tree/main",
     "website": "",
-    "imgSrc": "/images/dna.png",
-    "type": "Featured Project"
+    "imgSrc": "/images/dna-promoter-classification.png",
+    "type": "Side Project"
   },
   {
-    "name": "InstaClone",
+    "name": "Snake Game",
+    "techs": [
+      "Java",
+      "Swing"
+    ],
+    "description": "This is a simple Snake Game built using Java's javax.swing library. The game implements the classic snake gameplay, where the snake grows in length as it eats apples. The objective is to control the snake and prevent it from colliding with the walls or its own body.",
+    "github": "https://github.com/shantanufuke/Java-Snake-Game/tree/main",
+    "website": "",
+    "imgSrc": "/images/snake-game.png",
+    "type": "Side Project"
+  },
+  {
+    "name": "X-Ray Image Diagnosis with ResNet Transfer Learning",
     "techs": [
       "Python",
-      "Flask",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap"
+      "TensorFlow",
+      "Keras",
+      "ResNet",
+      "NumPy",
+      "Pandas"
     ],
-    "description": "A web application that emulates the core features of Instagram, such as posting and sharing photos, following other users, and liking posts, is developed using Flask.This application allows users to create accounts, upload photos, and interact with other users in a manner similar to Instagram. While the full suite of features may not be replicated, the fundamental aspects are implemented, providing a platform for users to engage in photo sharing and social networking. ",
-    "github": "https://github.com/Shikhar97/Mini-Instagram",
+    "description": "This project leverages transfer learning with a pre-trained ResNet model to classify chest X-ray images into two categories, enhancing diagnostic capabilities in healthcare.",
+    "github": "https://github.com/shantanufuke/Xray-diagnosis-resnet-transfer-learning",
     "website": "",
-    "imgSrc": "https://opengraph.githubassets.com/1afeafda/Shikhar97/Mini-Instagram",
+    "imgSrc": "/images/xray-classification.png",
+    "type": "Side Project"
+  },
+  {
+    "name": "Traffic Sign Classification Using CNN",
+    "techs": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "NumPy",
+      "Pandas"
+    ],
+    "description": "Developed a CNN model for classifying traffic signs into 43 categories using a dataset of over 50,000 images. Achieved 95% accuracy with a custom architecture and implemented an interactive GUI using Gradio.",
+    "github": "https://github.com/shantanufuke/Traffic-Signs-Recognition-using-CNN/tree/main",
+    "website": "",
+    "imgSrc": "/images/traffic-sign-detection.png",
+    "type": "Side Project"
+  },
+  {
+    "name": "Variational Autoencoder (VAE) for Image Generation",
+    "techs": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "NumPy",
+      "MNIST Dataset"
+    ],
+    "description": "Implemented a Variational Autoencoder (VAE) using TensorFlow/Keras for generating images based on the MNIST dataset. The project showcases how high-dimensional data is represented in a latent space and used for generative tasks.",
+    "github": "https://github.com/shantanufuke/VAE-Image-Generation-MNIST/tree/main",
+    "website": "",
+    "imgSrc": "/images/vae.png",
     "type": "Side Project"
   }
 ]

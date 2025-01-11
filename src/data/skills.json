@@ -7,17 +7,17 @@
     {
         "name": "Java",
         "level": 5,
-        "content": "I have strong Java skills and have worked on several projects using Java. I am familiar with Java EE, Spring Boot, Hibernate, and have experience with RESTful web services."
+        "content": "I have strong Java skills and have worked on projects using Java."
     },
     {
         "name": "C++",
         "level": 4,
-        "content": "I have intermediate-level skills in C++ and have used it for implementing algorithms, data structures, and system programming. I am familiar with STL, Boost, and have experience with multithreading and networking."
+        "content": "I have intermediate-level skills in C++ and have used it for implementing algorithms, data structures."
     },
     {
         "name": "JavaScript",
         "level": 4,
-        "content": "I am proficient in JavaScript and have used it for frontend development, web applications, and server-side scripting. I am familiar with frameworks like React.js, Node.js, and Express.js."
+        "content": "I am proficient in JavaScript and have used it for frontend development, web applications, and server-side scripting."
     },
     {
         "name": "Docker",
@@ -52,49 +52,9 @@
             "My expertise in CSS is one of the things that sets me apart from other developers. I have a deep understanding of the CSS box model, flexbox, grid, and responsive design. I have experience with CSS-in-JS libraries such as Styled Components as well as CSS preprocessors such as SASS."
     },
     {
-        "name": "React.js",
-        "level": 4,
-        "content": "I have experience with React.js and have used it for building user interfaces, single-page applications, and progressive web apps."
-    },
-    {
-        "name": "Node.js",
-        "level": 4,
-        "content": "I have experience with Node.js and have used it for building server-side applications, RESTful APIs, and real-time web applications."
-    },
-    {
-        "name": "SQL (Postgres)",
+        "name": "SQL (Oracle)",
         "level": 4,
         "content": "I have experience with SQL and have used PostgreSQL for managing relational databases, writing complex queries, and optimizing database performance."
-    },
-    {
-        "name": "Jenkins",
-        "level": 5,
-        "content":
-            "While I am not an expert in Jenkins, I have used it to build CI/CD pipelines for an academic project where I built a Jenkins pipeline and used it to deploy a NodeJS application to AWS."
-    },
-    {
-        "name": "MongoDB",
-        "level": 5,
-        "content":
-            "I have used MongoDB to build REST APIs and GraphQL APIs. I opt to use MongoDB when I want to build a prototype quickly and iterate on it, without worrying about the schema. I have experience with Mongoose for NodeJS and PyMongo for Python."
-    },
-    {
-        "name": "Go",
-        "level": 4,
-        "content":
-            "I am fairly new to Go since I only started using it during my internship at TuneIn, where I used it to build a microservice, backed by gRPC and Redis. I have experience with the Go testing framework as well as concurrency patterns such as channels and goroutines."
-    },
-    {
-        "name": "Kafka",
-        "level": 5,
-        "content":
-            "While I am yet to use Kafka in a professional setting, I have used it to build a distributed system for an academic project. I have experience with Kafka Streams and Zookeeper"
-    },
-    {
-        "name": "Redis",
-        "level": 4,
-        "content":
-            "I have used Redis Streams to build a data communication channel between two microservices for facilitating live streaming of data. "
     },
     {
         "name": "NumPy",
@@ -105,21 +65,6 @@
         "name": "Pandas",
         "level": 5,
         "content": "I am proficient in Pandas, a fast, powerful, and flexible open-source data analysis and manipulation tool. I have used Pandas for data cleaning, data exploration, and data analysis."
-    },
-    {
-        "name": "Boto3",
-        "level": 4,
-        "content": "I have experience with Boto3, the Amazon Web Services (AWS) SDK for Python. I have used Boto3 to interact with AWS services, such as EC2, S3, DynamoDB, and Lambda."
-    },
-    {
-        "name": "Leaflet",
-        "level": 4,
-        "content": "I have experience with Leaflet, an open-source JavaScript library for interactive maps. I have used Leaflet to create custom maps, add markers, and display data on maps."
-    },
-    {
-        "name": "Helm",
-        "level": 4,
-        "content": "I have experience with Helm, a package manager for Kubernetes. I have used Helm to manage Kubernetes applications, install charts, and upgrade releases."
     },
     {
         "name": "Azure",
@@ -134,6 +79,16 @@
     {
         "name": "Bash",
         "level": 4,
-        "content": "I have not done with Bash, a Unix shell and command language. I have used Bash to write shell scripts for automation, system administration, and data processing."
+        "content": "I have used Bash to write shell scripts for automation, system administration, and data processing."
+    },
+    {
+        "name": "Apache Spark",
+        "level": 4,
+        "content": "I have experience with Apache Spark, a powerful distributed computing framework. I have used it for processing large datasets, performing ETL tasks, and implementing machine learning pipelines using its MLlib library."
+    },
+    {
+        "name": "Apache Airflow",
+        "level": 4,
+        "content": "I have experience with Apache Airflow, a platform to programmatically author, schedule, and monitor workflows. I have used it to orchestrate ETL pipelines, manage task dependencies, and automate data workflows efficiently."
     }
 ]

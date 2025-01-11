@@ -30,12 +30,11 @@ const Experiences: React.FC = () => {
                   src="/images/tamuk.png"
                   alt="ASU"
               ></Image>
-              <p className={styles.time}>Jan 2024 - Jan 2025</p>
+              <p className={styles.time}>Jan 2024 - Dec 2024</p>
               <h4 className={styles.company}>Texas A&M University</h4>
               <h4 className={styles.role}>Research Assistant</h4>
               <p className={styles.description}>
-                    ⦿ &nbsp; &nbsp; Designed and implemented neural networks for DNA 
-                    enhancer prediction, achieving a 20% increase in prediction accuracy.<br/><br/>
+                    ⦿ &nbsp; &nbsp; Designed and implemented neural networks for DNA enhancer prediction, achieving a 20% increase in prediction accuracy.<br/><br/>
                     ⦿ &nbsp; &nbsp; Developed a C++ tool to determine sequence similarity, reducing computation time by 40% and increasing similarity
                     measurement accuracy by 10%.<br/><br/>
                     ⦿ &nbsp; &nbsp; Automated the data pipeline using Python, reducing manual processing time by 40%.<br/><br/>
@@ -67,7 +66,7 @@ const Experiences: React.FC = () => {
                       src="/images/deloitte.jpeg"
                       alt="Aruba Networks"
                   ></Image>
-                  <p className={styles.time}>July 2022 - July 2023</p>
+                  <p className={styles.time}>Oct 2021 - July 2023</p>
                   <h4 className={styles.company}>Deloitte Consulting</h4>
                   <h4 className={styles.role}>Oracle PL/SQL Developer</h4>
                   <p className={styles.description}>
@@ -84,7 +83,7 @@ const Experiences: React.FC = () => {
                   <div className={styles.dotCore}/>
                 </div>
                 <div className={styles.info}>
-                  <p className={styles.time}>January 2022 - June 2022</p>
+                  {/* <p className={styles.time}>January 2022 - June 2022</p> */}
                   <h4 className={styles.role}>Oracle Retail Developer</h4>
                   <p className={styles.description}>
                     ⦿ &nbsp; &nbsp; Integrated Oracle RMS with SAP ERP to automate invoice processing, 
@@ -100,7 +99,7 @@ const Experiences: React.FC = () => {
                   <div className={styles.dotCore}/>
                 </div>
                 <div className={styles.info}>
-                  <p className={styles.time}>October 2021 - Dec 2022</p>
+                  {/* <p className={styles.time}>October 2021 - Dec 2022</p> */}
                   <h4 className={styles.role}>Oracle BI Developer</h4>
 
                   <p className={styles.description}>

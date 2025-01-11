@@ -39,7 +39,8 @@ const Contact: React.FC<React.PropsWithChildren<IProps>> = ({
           className={styles.styledButton}
           onClick={() => {
             window.open(
-              `mailto:shantanufuke@gmail.com?subject=Job Opportunity&body=${message}`
+              // `mailto:shantanufuke@gmail.com?subject=Job Opportunity&body=${message}`
+               `https://mail.google.com/mail/?view=cm&fs=1&to=shantanufuke@gmail.com&su=Job%20Opportunity&body=${encodeURIComponent(message)}`
             );
           }}
         >
