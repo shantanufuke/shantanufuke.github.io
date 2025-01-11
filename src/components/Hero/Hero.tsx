@@ -29,7 +29,7 @@ const Hero = () => {
           <Highlight>Texas A&M University </Highlight>
         </Link>
           with a strong focus on Backend Development,
-          SQL Development, Machine Learning, and Data Science.
+          Data Engineering, and Machine Learning.
       </p>
       <Button className={styles.callToAction} onClick={scrollToContact}>
         Get In Touch

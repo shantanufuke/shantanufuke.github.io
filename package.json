@@ -12,8 +12,8 @@
     "dependencies": {
         "@next/third-parties": "^14.2.12",
         "@types/js-cookie": "^3.0.6",
-        "@types/node": "22.5.5",
-        "@types/react": "18.3.7",
+        "@types/node": "22.10.5",
+        "@types/react": "19.0.4",
         "@types/react-dom": "18.3.0",
         "clsx": "^2.1.1",
         "eslint-config-next": "^14.2.12",
@@ -29,7 +29,7 @@
         "react-parallax-tilt": "^1.7.239",
         "react-toggle-dark-mode": "^1.1.1",
         "styled-components": "^6.1.13",
-        "typescript": "5.6.2"
+        "typescript": "5.7.3"
     },
     "devDependencies": {
         "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
