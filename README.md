@@ -1,9 +1,8 @@
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/shikharg)
 <div style="text-align:center">
-  <img alt="Logo" src="https://github.com/Shikhar97/Shikhar97.github.io/blob/v2/public/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/shantanufuke/shantanufuke.github.io/blob/main/public/images/logo-light.png" width="100" />
 </div>
 <h1 style="text-align:center">
-  Portfolio Website v2
+  Portfolio Website
 </h1>
 <p style="text-align:center">
   Built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
@@ -12,7 +11,7 @@
 
 <div style="text-align:center">
 
-  <img alt="Demo" src="https://github.com/Shikhar97/Shikhar97.github.io/blob/v2/public/images/opengraph-image.jpg" />
+  <img alt="Demo" src="https://github.com/shantanufuke/shantanufuke.github.io/blob/main/public/images/main-screen.png" />
 
 </div>
 
@@ -45,23 +44,3 @@
    ```sh
    yarn dev
    ```
-
-## 🚀 Building and Running for Production
-
-1. Generate a full static production build
-
-   ```sh
-   next build
-   ```
-
-2. Preview the site as it will appear once deployed
-
-   ```sh
-   npm run serve
-   ```
-
-## 🎨 Color Reference
-
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-
