@@ -55,6 +55,8 @@ const ProjectGrid: React.FC<React.PropsWithChildren<IProps>> = ({
             target="_blank"
             rel="noopener noreferrer"
           >
+          <div className={styles.projectItem}>
+            <h3 className={styles.projectTitle}>{project.name}</h3>
             <Image
               className={styles.projectThumbnail}
               height={300}
@@ -62,6 +64,7 @@ const ProjectGrid: React.FC<React.PropsWithChildren<IProps>> = ({
               src={project.imgSrc}
               alt={project.name}
             />
+          </div>
           </a>
         ))}
       </div>

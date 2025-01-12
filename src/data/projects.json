@@ -72,7 +72,7 @@
     "type": "Side Project"
   },
   {
-    "name": "X-Ray Image Diagnosis with ResNet Transfer Learning",
+    "name": "ResNet for X-ray Image Diagnosis",
     "techs": [
       "Python",
       "TensorFlow",
@@ -103,7 +103,7 @@
     "type": "Side Project"
   },
   {
-    "name": "Variational Autoencoder (VAE) for Image Generation",
+    "name": "VAE for Image Generation",
     "techs": [
       "Python",
       "TensorFlow",
