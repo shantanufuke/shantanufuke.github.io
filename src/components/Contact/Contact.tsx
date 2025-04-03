@@ -33,15 +33,15 @@ const Contact: React.FC<React.PropsWithChildren<IProps>> = ({
         <p className={styles.message}>
           If you would like to work together or discuss an opportunity for work,
           please use the form or send me an email on{" "}
-          <Highlight>shantanufuke@gmail.com</Highlight>
+          <Highlight>shantanufuke1997@gmail.com</Highlight>
         </p>
         <Button
           className={styles.styledButton}
           onClick={() => {
-            window.open(
-              // `mailto:shantanufuke@gmail.com?subject=Job Opportunity&body=${message}`
-               `https://mail.google.com/mail/?view=cm&fs=1&to=shantanufuke@gmail.com&su=Job%20Opportunity&body=${encodeURIComponent(message)}`
-            );
+          const encodedMessage = encodeURIComponent(message);
+          //const mailtoLink = `mailto:shantanufuke1997@gmail.com?subject=Job Opportunity&body=${encodedMessage}`;
+          const gmaillink = `https://mail.google.com/mail/?view=cm&fs=1&to=shantanufuke1997@gmail.com&su=Job Opportunity&body=${encodedMessage}`;
+          window.open(gmaillink);
           }}
         >
           Send

@@ -4,8 +4,8 @@ import Link from "next/link";
 const Email: React.FC = () => {
   return (
     <div className={styles.email}>
-      <Link className={styles.link} href="mailto:shantanufuke@gmail.com">
-          shantanufuke@gmail.com
+      <Link className={styles.link} href="mailto:shantanufuke1997@gmail.com">
+          shantanufuke1997@gmail.com
       </Link>
       <div className={styles.line} />
     </div>
