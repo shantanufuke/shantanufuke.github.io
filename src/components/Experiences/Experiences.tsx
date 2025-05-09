@@ -32,14 +32,12 @@ const Experiences: React.FC = () => {
               ></Image>
               <p className={styles.time}>Jan 2024 - Dec 2024</p>
               <h4 className={styles.company}>Texas A&M University</h4>
-              <h4 className={styles.role}>Research Assistant</h4>
+              <h4 className={styles.role}>Graduate Research Assistant</h4>
               <p className={styles.description}>
-                    ⦿&nbsp;Designed and implemented neural networks for DNA enhancer prediction, achieving a 20% increase in prediction accuracy.<br/><br/>
-                    ⦿&nbsp;Developed a C++ tool to determine sequence similarity, reducing computation time by 40% and increasing similarity
-                    measurement accuracy by 10%.<br/><br/>
-                    ⦿&nbsp;Automated the data pipeline using Python, reducing manual processing time by 40%.<br/><br/>
-                    ⦿&nbsp;Utilized Python for data preprocessing, transforming large FASTA files into neural network-compatible formats, boosting model
-                    accuracy by 15%.<br/>
+                    ⦿&nbsp;Utilized Python for data preprocessing, transforming large FASTA files into neural network-compatible formats.<br/><br/>
+                    ⦿&nbsp;Implemented neural networks for bioinformatics applications using deep learning techniques to analyze genomic data.<br/><br/>
+                    ⦿&nbsp;Developed and optimized C++ code to generate mutated DNA sequences for training data preparation.<br/><br/>
+                    ⦿&nbsp;Processed large-scale genomic datasets using Apache Spark, enhancing data processing efficiency and accelerating large-scale sequence analysis.<br/>
               </p>
             </div>
           </div>
@@ -68,45 +66,12 @@ const Experiences: React.FC = () => {
                   ></Image>
                   <p className={styles.time}>Oct 2021 - July 2023</p>
                   <h4 className={styles.company}>Deloitte Consulting</h4>
-                  <h4 className={styles.role}>Oracle PL/SQL Developer</h4>
+                  <h4 className={styles.role}>Data Engineer | Oracle PL/SQL Developer</h4>
                   <p className={styles.description}>
-                    ⦿&nbsp;Developed the "Deals to Stock Ledger Interface" in PL/SQL for 
-                    Oracle Retail Merchandising Suite, ensuring efficient deal processing and data integrity 
-                    in the stock ledger.<br/><br/>
-                    ⦿&nbsp;Optimized data transfer from Google Cloud Platform (GCP) to Oracle RMS with an 
-                    automated PL/SQL program, reducing upload time by 40% and improving scalability.<br/>
-                  </p>
-                </div>
-              </div>
-              <div className={styles.bullet}>
-                <div className={styles.dotSecondary}>
-                  <div className={styles.dotCore}/>
-                </div>
-                <div className={styles.info}>
-                  {/* <p className={styles.time}>January 2022 - June 2022</p> */}
-                  <h4 className={styles.role}>Oracle Retail Developer</h4>
-                  <p className={styles.description}>
-                    ⦿&nbsp;Integrated Oracle RMS with SAP ERP to automate invoice processing, 
-                    improving workflow efficiency by 60% and enhancing data accuracy.<br/><br/>
-                    ⦿&nbsp;Led the design of an Oracle Retail Cloud location list creation program, 
-                    reducing user time by 70% and improving team performance.<br/>
-                  </p>
-                </div>
-              </div>
-
-              <div className={styles.bullet}>
-                <div className={styles.dotSecondary}>
-                  <div className={styles.dotCore}/>
-                </div>
-                <div className={styles.info}>
-                  {/* <p className={styles.time}>October 2021 - Dec 2022</p> */}
-                  <h4 className={styles.role}>Oracle BI Developer</h4>
-
-                  <p className={styles.description}>
-                    ⦿&nbsp;Developed Oracle BI reports, utilizing SQL to extract data and 
-                    generate comprehensive reports, improving accuracy and operational efficiency.<br/><br/>
-                    ⦿&nbsp;Worked on optimizing complex SQL queries in BI reports to enhance performance 
-                    and reduce query execution time, ensuring seamless data delivery.<br/>
+                    ⦿&nbsp;Automated data transfer from GCP to Oracle RMS using PL/SQL, transforming files and loading into stock ledger tables, cutting upload time by 40%.<br/><br/>
+                    ⦿&nbsp;Developed a PL/SQL integration to load Oracle Retail Suite invoices into SAP ERP, improving workflow efficiency and data accuracy by 60%.<br/><br/>
+                    ⦿&nbsp;Led development of an Oracle Retail Cloud location list creation program, automating ETL of user-uploaded data into Oracle Retail tables and reducing manual creation time by 70%.<br/><br/>
+                    ⦿&nbsp;Created BI Reports to present essential data on invoices, stock ledger, and deals, enhancing insights within the Oracle Retail Suite ecosystem.<br/>
                   </p>
                 </div>
               </div>
@@ -133,16 +98,14 @@ const Experiences: React.FC = () => {
                   alt="Stylumia" 
               />
               <p className={styles.time}>April 2019 - October 2021</p>
-              <h4 className={styles.company}>Software Developer</h4>
-              <h4 className={styles.role}>
-                Oracle SQL Developer
-              </h4>
+              <h4 className={styles.company}>Tata Consultanccy Services</h4>
+              <h4 className={styles.role}>Data Engineer | Oracle PL/SQL Developer</h4>
               <p className={styles.description}>
-                  ⦿&nbsp;Automated 80% of Coupa purchase orders into Oracle E-Business Suite using PL/SQL, reducing manual entry by 20 hours per week.<br/><br/>
-                  ⦿&nbsp;Streamlined supplier invoice management in Oracle EBS, improving data accuracy by 80% and reducing processing time by 60%.<br/><br/>
-                  ⦿&nbsp;Cut account creation time by 60% through custom PL/SQL automation for user creation and email notifications.<br/><br/>
-                  ⦿&nbsp;Automated supplier attribute updates using Oracle EBS Supplier API, reducing manual efforts by 80% and improving scalability.<br/><br/>
-                  ⦿&nbsp;Designed efficient data models and managed schemas for Oracle EBS integration with optimized DDLs.<br/><br/>
+                  ⦿&nbsp;Designed robust PL/SQL ETL processes to migrate 80% of Coupa purchase order data into Oracle EBS, automating batch loads and saving 20+ hours/week in manual effort.<br/><br/>
+                  ⦿&nbsp;Built automated PL/SQL pipelines for supplier invoice ingestion in Oracle EBS, improving data accuracy by 80% and cutting processing time by 60%.<br/><br/>
+                  ⦿&nbsp;Designed a PL/SQL-based data workflow to automate user provisioning in Oracle EBS, integrating with email services to streamline notifications and improve onboarding efficiency by 60%.<br/><br/>
+                  ⦿&nbsp;Maintained and enhanced Oracle Forms and Reports, applying advanced debugging and performance tuning techniques to support high-volume transaction processing and improve system reliability.<br/><br/>
+                  ⦿&nbsp;Utilized Control-M to schedule and monitor critical data load jobs, ensuring timely and reliable execution of invoice, purchase order, and user data workflows.<br/>
               </p>
             </div>
           </div>

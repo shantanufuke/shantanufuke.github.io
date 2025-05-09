@@ -30,21 +30,6 @@
     "type": "Featured Project"
   },
   {
-    "name": "Blog Site",
-    "techs": [
-      "Python",
-      "Django",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
-    "description": "A powerful Django-based application for creating, managing, and sharing blogs, providing users with an intuitive platform for content publishing and exploration.",
-    "github": "https://github.com/shantanufuke/blog-site-django",
-    "website": "",
-    "imgSrc": "/images/blog-site.png",
-    "type": "Side Project"
-  },
-  {
     "name": "DNA Promoter Classifier",
     "techs": [
       "Python",

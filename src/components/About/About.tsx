@@ -23,8 +23,9 @@ const About = ({ ...delegated }: Props) => {
             <div className={styles.aboutme}>
                 <SectionTitle side={"left"}>About Me</SectionTitle>
                 <p className={styles.description}>
-                Hi there! My name is Shantanu Fuke, and I am currently pursuing my Master's in Computer Science at Texas A&M University. 
-                As I embark on the next chapter of my career, I am exploring new opportunities for full-time roles in Backend Development, Data Engineering, and Machine Learning.
+                Hi there! My name is Shantanu Fuke. I’m currently pursuing my Master’s in Computer Science at Texas A&M University, with over 4 years of professional 
+                experience in data engineering roles—primarily using PL/SQL, data pipelines, and analytics solutions. As I transition into the next phase of my career, 
+                I’m actively exploring full-time opportunities in Software Engineering, Data Engineering, and Data Analytics.
                 </p>
                 <div className={styles.description}>
                     What I Bring to the Table:<br/>
@@ -36,16 +37,7 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-                            4+ Years of Professional Experience
-                        </li>
-                        <li className="flex items-start">
-                            <svg className="w-4 h-4 mt-1 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
-                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                 viewBox="0 0 20 20">
-                                <path
-                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-                            </svg>
-                            Proficiency in Python, Java, C++, SQL, PL/SQL and frameworks, including Django, Flask, and FastAPI.
+                            4+ years of professional experience in Data Engineering, specializing in building scalable ETL pipelines, data integration, and database optimization using SQL, PL/SQL, and Python.
 
                         </li>
                         <li className="flex items-start">
@@ -55,7 +47,7 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-                            Expertise in Machine Learning with a strong foundation in TensorFlow, PyTorch, and Keras.
+                            Proficient in data engineering tools and frameworks including Apache Spark, Airflow, Hadoop, Snowflake, BigQuery, and cloud platforms like AWS and Azure.
                         </li>
                         <li className="flex items-start">
                             <svg className="w-4 h-4 mt-1 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
@@ -64,7 +56,7 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-                            Skilled in containerization technologies like Docker and Kubernetes.
+                            Skilled in developing APIs with Flask/FastAPI, automating workflows with Docker and Kubernetes, and applying ML workflows using TensorFlow, PyTorch, and Keras.
                         </li>
 
                     </ul>

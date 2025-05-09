@@ -7,14 +7,14 @@ import { DARK_COLORS, LIGHT_COLORS } from "theme";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Shantanu Fuke | Software Developer | Database Developer",
+  title: "Shantanu Fuke | Data Engineer | Software Developer",
   description:
     "Shantanu Fuke is a Computer Science Graduate Student at Texas A&M University, who loves learning new things.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://shantanufuke.github.io/",
-    title: "Shantanu Fuke | Software Developer | Database Developer"
+    title: "Shantanu Fuke | Data Engineer | Software Developer"
   },
 };
 

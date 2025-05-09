@@ -13,14 +13,13 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <p className={styles.text}>
-        <Highlight>Hi, my name is</Highlight>
+        <Highlight>Hi, My Name is</Highlight>
       </p>
       <h2 className={styles.name}>Shantanu Fuke. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
         <h3 className={styles.subText}>I love challenging myself every day
         </h3>
         <p className={styles.description}>
-        I bring over 4 years of experience specializing in Database Development and Python Development. I am currently 
-        pursuing my Master's in Computer Science at, 
+        I’m a Data Engineer with 4+ years of experience in PL/SQL and designing efficient database systems, I am currently pursuing my Master's in Computer Science at, 
             <Link
                 href="https://www.tamuk.edu/"
           target="_blank"
@@ -28,8 +27,7 @@ const Hero = () => {
         >
           <Highlight>Texas A&M University </Highlight>
         </Link>
-          with a strong focus on Backend Development,
-          Data Engineering, and Machine Learning.
+          with a strong focus on Data Engineering, Software Engineering.
       </p>
       <Button className={styles.callToAction} onClick={scrollToContact}>
         Get In Touch
