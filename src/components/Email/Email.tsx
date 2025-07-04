@@ -12,4 +12,5 @@ const Email: React.FC = () => {
   );
 };
 
+
 export default Email;
