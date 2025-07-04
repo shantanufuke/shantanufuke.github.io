@@ -17,7 +17,7 @@ const COLLEGES = [
         ],
         start: 2023,
         end: 2025,
-        gpa: "4.0",
+        gpa: "3.92",
         imgSrc: "/images/tamuk-large.png",
     },
     {

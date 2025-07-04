@@ -23,9 +23,9 @@ const About = ({ ...delegated }: Props) => {
             <div className={styles.aboutme}>
                 <SectionTitle side={"left"}>About Me</SectionTitle>
                 <p className={styles.description}>
-                Hi there! My name is Shantanu Fuke. I’m currently pursuing my Master’s in Computer Science at Texas A&M University, with over 4 years of professional 
-                experience in data engineering roles—primarily using PL/SQL, data pipelines, and analytics solutions. As I transition into the next phase of my career, 
-                I’m actively exploring full-time opportunities in Software Engineering, Data Engineering, and Data Analytics.
+                Hi there! I’m Shantanu Fuke, a Data Engineer with 4+ years of experience in PL/SQL, ETL development, and building scalable data pipelines. 
+                I’m currently pursuing my Master’s in Computer Science at Texas A&M University-Kingsville, with a strong focus on cloud data platforms, big data technologies, and analytics solutions. 
+                I’m actively seeking full-time roles in Data Engineering and related domains.
                 </p>
                 <div className={styles.description}>
                     What I Bring to the Table:<br/>
@@ -56,7 +56,7 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-                            Skilled in developing APIs with Flask/FastAPI, automating workflows with Docker and Kubernetes, and applying ML workflows using TensorFlow, PyTorch, and Keras.
+                            Skilled in developing APIs with Flask/Django, automating workflows with Docker and Kubernetes, and applying ML workflows using TensorFlow, PyTorch, and Keras.
                         </li>
 
                     </ul>

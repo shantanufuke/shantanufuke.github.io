@@ -18,16 +18,16 @@ const Hero = () => {
       <h2 className={styles.name}>Shantanu Fuke. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
         <h3 className={styles.subText}>I love challenging myself every day
         </h3>
-        <p className={styles.description}>
-        I’m a Data Engineer with 4+ years of experience in PL/SQL and designing efficient database systems, I am currently pursuing my Master's in Computer Science at, 
-            <Link
-                href="https://www.tamuk.edu/"
+      <p className={styles.description}>
+        I’m a technologist with 4+ years of experience in PL/SQL, ETL development, and scalable system design. Currently pursuing my Master’s in Computer Science at&nbsp;
+        <Link
+          href="https://www.tamuk.edu/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          <Highlight>Texas A&M University </Highlight>
+          <Highlight>Texas A&M University-Kingsville</Highlight>
         </Link>
-          with a strong focus on Data Engineering, Software Engineering.
+        , I’m passionate about solving real-world problems through data-driven and software engineering solutions.
       </p>
       <Button className={styles.callToAction} onClick={scrollToContact}>
         Get In Touch

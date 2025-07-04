@@ -59,7 +59,7 @@
 .tech {
   font-weight: 400;
   color: var(--color-primary);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-size: calc(14 / 16 * 1rem);
 }
 

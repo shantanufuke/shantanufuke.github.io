@@ -1,6 +1,37 @@
 [
+    {
+        "name": "Olympic Insights Cloud Data Pipeline",
+        "techs": [
+          "Azure Data Factory",
+          "Databricks",
+          "PySpark",
+          "Azure Synapse Analytics",
+          "Power BI"
+        ],
+        "description": "Built an end-to-end, cloud-native data pipeline to ingest, clean, and transform Olympic datasets using Azure Data Factory and Databricks (PySpark). Loaded processed data into Azure Synapse and visualized insights through interactive dashboards in Power BI.",
+        "github": "https://github.com/shantanufuke/tokyo-olympic-azure-pipeline",
+        "website": "",
+        "imgSrc": "/images/olympic-pipeline.png",
+        "type": "Featured Project"
+    },
+    {
+  "name": "E-Commerce Data Lakehouse Pipeline",
+  "techs": [
+    "Azure Data Lake",
+    "Azure Data Factory",
+    "Databricks",
+    "Delta Lake",
+    "PySpark",
+    "Databricks SQL"
+  ],
+  "description": "Built a medallion architecture pipeline using Azure Data Factory and Databricks (PySpark) to ingest, transform, and store e-commerce data in Delta Lake. Queried the Gold layer using Databricks SQL to extract business insights.",
+  "github": "https://github.com/shantanufuke/E-Commerce-Data-Lakehouse-Pipeline",
+  "website": "",
+  "imgSrc": "/images/ecommerce-pipeline.png",
+  "type": "Featured Project"
+},
   {
-    "name": "Social Media Platform",
+    "name": "Facebook Clone – Full-Stack Social App",
     "techs": [
       "Python",
       "Django",
@@ -13,7 +44,7 @@
     "github": "https://github.com/shantanufuke/Django-Facebook-Clone",
     "website": "",
     "imgSrc": "/images/fb-clone.png",
-    "type": "Featured Project"
+    "type": "Side Project"
   },
   {
     "name": "Lung Image Classifier CNN",
@@ -27,7 +58,7 @@
     "github": "https://github.com/shantanufuke/Sub-classifying-Lung-Cancer-with-TensorFlow-2-and-Keras",
     "website": "",
     "imgSrc": "/images/lung-cancer.png",
-    "type": "Featured Project"
+    "type": "Side Project"
   },
   {
     "name": "DNA Promoter Classifier",

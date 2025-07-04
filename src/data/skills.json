@@ -95,7 +95,7 @@
         "content": "I am proficient in designing and managing data warehouses using tools like Snowflake and AWS Redshift, ensuring high-performance queries and efficient data storage."
     },
     {
-        "name": "NoSQL Databases (MongoDB, Cassandra)",
+        "name": "NoSQL Databases (MongoDB, Cassandra, Redis, HBase, DynamoDB, Bigtable)",
         "level": 4,
         "content": "I have worked with NoSQL databases like MongoDB and Cassandra for handling large volumes of unstructured data in real-time applications."
     }
