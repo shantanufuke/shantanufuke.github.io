@@ -1,3 +1,4 @@
+
 import { ConstrainedTitle } from "@/components/SectionTitle";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import styles from "./Experiences.module.css";
@@ -10,6 +11,39 @@ const Experiences: React.FC = () => {
         <ConstrainedTitle side="left">Experiences</ConstrainedTitle>
         <div className={styles.items}>
           <div className={styles.timeline}/>
+
+        <div className={styles.item}>
+            <Image
+                className={styles.image}
+                height={100}
+                width={100}
+                src="/images/actum_processing_llc_logo.jpeg"
+                alt="ASU"
+            />
+            <div className={styles.dotPrimary}>
+              <div className={styles.dotCore}/>
+            </div>
+            <div className={styles.connector}/>
+            <div className={styles.info}>
+              <Image
+                  height={100}
+                  width={100}
+                  className={styles.mobileImage}
+                  src="/images/actum_processing_llc_logo.jpeg"
+                  alt="ASU"
+              ></Image>
+              <p className={styles.time}>Sep 2025 - Present</p>
+              <h4 className={styles.company}>Actum Processing</h4>
+              <h4 className={styles.role}>Oracle APEX Developer</h4>
+              <p className={styles.description}>
+                    ⦿&nbsp;Designing and developing Oracle APEX applications to support business workflows and payment processing systems..<br/><br/>
+                   ⦿&nbsp;Writing and optimizing PL/SQL procedures and functions for backend data processing..<br/><br/>
+                    ⦿&nbsp;Integrating APEX applications with external services and REST APIs for seamless data exchange..<br/>
+              </p>
+            </div>
+          </div>
+       
+          
           <div className={styles.item}>
             <Image
                 className={styles.image}
